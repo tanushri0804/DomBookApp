@@ -1,9 +1,3 @@
-const loginData = JSON.parse(localStorage.getItem("loginData"));
-
-if (!loginData || loginData.email !== "admin@empher.com") {
-    alert("Admin Not Logged In");
-    window.location.href = "index.html";
-}
 
 const bookGrid = document.getElementById("bookGrid");
 const addBookForm = document.getElementById("addBookForm");
